@@ -31,6 +31,14 @@ st.line_chart(df.set_index("Stadt"))
 st.bar_chart(df.set_index("Stadt"))
 
 # Medien
-st.image("/Users/MacBookPro2012/Library/CloudStorage/GoogleDrive-lessons.mathe@googlemail.com/Meine Ablage/Screenshouts/Bildschirmfoto 2026-09-18.png")
-st.audio("/Users/MacBookPro2012/Library/CloudStorage/GoogleDrive-lessons.mathe@googlemail.com/Meine Ablage/Screenshouts/r1AlDosari.mp3")
-st.video("/Users/MacBookPro2012/Library/CloudStorage/GoogleDrive-lessons.mathe@googlemail.com/Meine Ablage/Screenshouts/001Welcome.mp4")
+
+st.header("Medien")
+st.image("media/Bildschirmfoto.png")
+
+st.audio("media/r1AlDosari.mp3")
+
+st.video("media/001Welcome.mp4")
+#
+#st.image("/Users/MacBookPro2012/Library/CloudStorage/GoogleDrive-lessons.mathe@googlemail.com/Meine Ablage/Screenshouts/Bildschirmfoto 2026-09-18.png")
+#st.audio("/Users/MacBookPro2012/Library/CloudStorage/GoogleDrive-lessons.mathe@googlemail.com/Meine Ablage/Screenshouts/r1AlDosari.mp3")
+#st.video("/Users/MacBookPro2012/Library/CloudStorage/GoogleDrive-lessons.mathe@googlemail.com/Meine Ablage/Screenshouts/001Welcome.mp4")
